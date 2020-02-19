@@ -6,10 +6,11 @@
 			return $this->db->get_where($table,$where);
 		}
 		public function cariKos($q,$jenis="",$jam_bertemu="",$binatang=""){
-			echo $jenis;
+			
 			$this->db->select('*');
 			$this->db->where('publish','Y');
-			$this->db->like('kota_kab',$q);
+			$this->db->like('nama',$q);
+			$this->db->or_like('kota_kab',$q);
 			
 			if(!empty($jenis)){
 				$this->db->where('jenis',$jenis);

@@ -43,8 +43,8 @@
                                                     <td class="text-center"><?php echo $key['nama_user'];?></td>
                                                     <td class="text-center"><?php echo $key['type'];?></td>
                                                     
-                                                    <td class="text-center"><?php echo "Rp ".number_format($key['harga']);?></td>
-                                                    <td class="text-center"><?php echo "Rp ".number_format($key['sub_total']*2);?></td>
+                                                    <td class="text-center"><?php if($key['type']=="iklan"){echo "Rp ".number_format($key['sub_total']);}else{echo "Rp ".number_format($key['harga']);}?></td>
+                                                    <td class="text-center"><?php if($key['type']=="iklan"){echo "Rp ".number_format($key['sub_total']);}else{echo "Rp ".number_format($key['harga']);}?></td>
                                                 </tr>         
                                             <?php $no++;}?>
                                             <tr>

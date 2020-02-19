@@ -374,12 +374,13 @@
 				$this->db->where('booking.type',$type);
 				$this->db->where('booking.status','y');
 				$this->db->join('kosan', 'kosan.id = booking.id_kontrakan');
-				$this->db->join('kamar', 'kamar.id = booking.id_kamar');
 				$this->db->join('user','user.id=booking.id_user');
 				if($type=="kosan"){
 					$this->db->select('pencari_kos.nama as nama_user');
 					$this->db->where('user.level','2');
 					$this->db->join('pencari_kos','pencari_kos.id=user.pengguna_id');
+					$this->db->join('kamar', 'kamar.id = booking.id_kamar');
+
 				}else{
 					$this->db->select('pemilik_kos.nama as nama_user');
 					$this->db->where('user.level','1');

@@ -185,6 +185,7 @@ class Beranda extends CI_Controller {
 		if($this->session->userdata('status')!=="login"){
 			redirect(auth);
 		}
+		$updated_total ="";
 		if($payment=="DP"){
 			
 			$total =$this->cart->total();
@@ -198,10 +199,12 @@ class Beranda extends CI_Controller {
 			$_SESSION['cart_contents']['cart_total'] =$updated_total;
 		
 		}else if($payment=="FULL"){
-			
-			$total =$this->cart->total();
-			$updated_total = ($total * 2);
-			
+			if(empty($this->session->userdata('payment'))){
+				$updated_total =$this->cart->total();
+			}else{
+				$total =$this->cart->total();
+				$updated_total = ($total * 2);
+			}
 			$data = array(
 				'payment' => $payment,
 			);
@@ -235,7 +238,8 @@ class Beranda extends CI_Controller {
 				'sub_total' => $this->cart->total(),
 				'id_user' => $this->session->userdata('id'),
 				'payment' => $this->session->userdata('payment'),
-				'status' => 'p'
+				'status' => 'p',
+				'created_at' => date('Y-m-d')
 			);
 			
 			if($this->session->userdata('level')=="1"){

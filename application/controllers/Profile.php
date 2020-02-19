@@ -66,12 +66,12 @@
             $data['booking'] =$this->smartpost->getBookingDetail($inv,"iklan");
         }else{
             $data['booking'] =$this->smartpost->getBookingDetail($inv,"kosan");
-
         }
-        // echo "<pre>";
-        // print_r($data['booking']);die();
-
+        
+        $data['status_payment']=$getBookingData[0]['payment'];
         $data['count_booking']=count($data['booking']);
+        // echo "<pre>";
+        // print_r($data['status_payment']);die();
         $this->load->view('front/index',$data);
     }
 

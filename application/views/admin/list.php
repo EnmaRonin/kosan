@@ -4,7 +4,7 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-admin icon-gradient bg-happy-itmeo">
+                                        <i class="pe-7s-users icon-gradient bg-happy-itmeo">
                                         </i>
                                     </div>
                                     <div>Admin

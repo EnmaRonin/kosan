@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Kosan.</title>
+    <title>Electronic Kos Now</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
     <meta name="msapplication-tap-highlight" content="no">
@@ -32,7 +32,7 @@
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
             <div class="app-header__logo">
-                <div class="text-center"><img src="<?php echo base_url();?>assets/logo.png" height="50" width="180" ></div>
+                <div class="text-center"><img src="<?php echo base_url();?>assets/E-Kon.png" height="150" width="200" ></div>
                 <div class="header__pane ml-auto">
                     <div>
                         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
@@ -234,12 +234,12 @@
                                     <ul class="nav">
                                         <li class="nav-item">
                                             <a href="javascript:void(0);" class="nav-link">
-                                                &copy; DevIjv All Team
+                                                &copy; Electronic Kos Now All Team
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="javascript:void(0);" class="nav-link">
-                                                Since 2019
+                                                Since 2020
                                             </a>
                                         </li>
                                     </ul>
@@ -292,7 +292,7 @@
             data: {
                 labels: ["Data Booking Iklan", "Data Booking Kosan", "Data User", " Data Kosan Publish",'Data Kosan Non Publish'],
                 datasets: [{
-                    label: '# NGEKOS_DONG',
+                    label: '# Elektronic Kos Now',
                     data: [
                     <?php echo $this->db->select('*')->from('booking')->where('status','y')->where('type','iklan')->where('created_at',date('Y-m-d'))->get()->num_rows();?>,
                     <?php echo $this->db->select('*')->from('booking')->where('status','y')->where('type','kosan')->where('created_at',date('Y-m-d'))->get()->num_rows();?>,

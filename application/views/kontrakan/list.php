@@ -25,7 +25,7 @@
                                 </div>
                                 <?php endif; ?>
                                 <div class="main-card mb-3 card">
-                                    <div class="card-header">Data Kontrakan
+                                    <div class="card-header">Data Kosan
                                         <div class="btn-actions-pane-right">
                                             <div class="">
                                                 <a href="<?php echo base_url();?>index.php/owner/Kosan/form" class="mr-2 btn-icon btn-icon-only btn btn-outline-success"><i class="pe-7s-plus btn-icon-wrapper"> </i></a>

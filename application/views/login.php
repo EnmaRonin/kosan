@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('<?php echo base_url();?>assets/login/images/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" style="margin-top: 200px;">
-				<h4 class="text-center">Masuk Ke CariKosaBebas.com</h4>
+				<h4 class="text-center">Masuk Ke Ekon.com</h4>
 				<hr class="mt-5">
 				<form class="login100-form validate-form" method="post" action="<?php echo base_url();?>index.php/auth/login">				
 					<?php if($this->session->flashdata('result')==TRUE):?>
@@ -58,11 +58,11 @@
 					
 					
 					<div class="container-login100-form-btn mt-2">
-						<p>Belum Punya Akun ?? Daftar <a href="<?php echo base_url();?>index.php/auth/register">Disini!!</a></p>
+						<p>Belum Punya Akun ?? Daftar <a href="<?php echo base_url();?>index.php/auth/register"><i><u>Disini!!</u></i></a></p>
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
 							<button class="login100-form-btn">
-								Masuk
+								LOGIN
 							</button>
 						</div>
 					</div>

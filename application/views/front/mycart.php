@@ -1,5 +1,5 @@
 <div class="bradcam_area breadcam_bg">
-        <h3 class="text-center">Keranjang Saya</h3>
+        <h3 class="text-center">Booking Saya</h3>
 </div>
 
 <div class="container mt-5">
@@ -30,7 +30,7 @@
                     
                 <?php if(count($cart)==0){?>
                     <tr>
-                    <td colspan="6" class="text-center">Data Keranjang Masih Kosong</td>
+                    <td colspan="6" class="text-center">Data Booking Masih Kosong</td>
                     </tr>
                 <?php }?>
                 
@@ -60,7 +60,7 @@
             <div class="row">
                 <?php if($this->session->level!=="1"){?>
                 <div class="col-sm-12 col-md-6">
-                    <a class="btn btn-block btn-danger" href="<?php echo base_url();?>index.php/beranda/kosan">Cari Kosan Lagi!!</a>
+                    <a class="btn btn-block btn-danger" href="<?php echo base_url();?>index.php/beranda">Cari Kosan Lagi!!</a>
                 </div>
                 <?php }?>
                 <div class="col-sm-12 col-md-6">

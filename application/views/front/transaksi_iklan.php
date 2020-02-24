@@ -6,7 +6,7 @@
                                           </button>
                                       </div>
                           <?php endif; ?>
-<h1>Transaksi Iklan</h1>
+<h1>Transaksi Pembayaran Kosan</h1>
 <hr>
 <table class="table table-hover table-bordered">
   <thead>

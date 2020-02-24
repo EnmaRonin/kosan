@@ -113,7 +113,7 @@ class Beranda extends CI_Controller {
 		
 		$this->cart->insert($cart);
 	
-		$this->session->set_flashdata('result', '1 Item Berhasil Di Tambahkan Ke Keranjang!');
+		$this->session->set_flashdata('result', '1 Item Berhasil Di Tambahkan!');
 		redirect('beranda/mycart');
 	}
 
@@ -145,7 +145,7 @@ class Beranda extends CI_Controller {
 		
 		$this->cart->insert($cart);
 	
-		$this->session->set_flashdata('result', '1 Item Berhasil Di Tambahkan Ke Keranjang!');
+		$this->session->set_flashdata('result', '1 Item Berhasil Di Tambahkan Ke Booking Saya!');
 		redirect('beranda/mycart');
 
 	}
@@ -163,7 +163,7 @@ class Beranda extends CI_Controller {
 			'qty' => 0
 		);
 		$this->cart->update($cart);
-		$this->session->set_flashdata('result', '1 item keranjang berhasil di hapus!!');
+		$this->session->set_flashdata('result', '1 Item Booking Berhasil Dihapus!!');
 		redirect('beranda/mycart');		
 	}
 	 
@@ -279,7 +279,7 @@ class Beranda extends CI_Controller {
 				
 				unset($_SESSION['payment']);
 
-				$this->session->set_flashdata('result', 'Terima Kasih MOhon Menunggu Pengecekan Status!!');
+				$this->session->set_flashdata('result', 'Terima Kasih Mohon Menunggu Pengecekan Status!!');
 				redirect('profile');
 		}
 	}
@@ -295,8 +295,8 @@ class Beranda extends CI_Controller {
             'charset'   => 'utf-8',
             'protocol'  => 'smtp',
             'smtp_host' => 'smtp.gmail.com',
-            'smtp_user' => '',  // Email gmail
-            'smtp_pass'   => '',  // Password gmail
+            'smtp_user' => 'aekon83@gmail.com',  // Email gmail
+            'smtp_pass'   => 'firdauss215',  // Password gmail
             'smtp_crypto' => 'ssl',
             'smtp_port'   => 465,
             'crlf'    => "\r\n",
@@ -307,7 +307,7 @@ class Beranda extends CI_Controller {
         $this->load->library('email', $config);
 
         // Email dan nama pengirim
-        $this->email->from('no-reply@masrud.com', 'Ngekos.com');
+        $this->email->from('no-reply@masrud.com', 'Ekon.com');
 
         // Email penerima
         $this->email->to($email); // Ganti dengan email tujuan

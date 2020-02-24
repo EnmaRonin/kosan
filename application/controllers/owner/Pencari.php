@@ -84,7 +84,7 @@ class Pencari extends CI_Controller {
 			);
 			$this->smartpost->tambah('user',$users);
 
-			$this->session->set_flashdata('result', 'pencari Kos Behasil Di Tambah!!');
+			$this->session->set_flashdata('result', 'Pencari Kos Behasil Di Tambah!!');
 			redirect('owner/pencari');
     	}
 	}
@@ -103,7 +103,7 @@ class Pencari extends CI_Controller {
     			$data['password']=md5($this->input->post('password'));
     			$this->smartpost->edit('pencari_kos',$data,$id);	
     		}
-			$this->session->set_flashdata('result', 'pencari Kos Behasil Di Ubah!!');
+			$this->session->set_flashdata('result', 'Pencari Kos Behasil Di Ubah!!');
 			redirect('owner/pencari');
     	
 	}

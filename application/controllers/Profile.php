@@ -142,7 +142,7 @@
             'protocol'  => 'smtp',
             'smtp_host' => 'smtp.gmail.com',
             'smtp_user' => 'aekon83@gmail.com',  // Email gmail
-            'smtp_pass'   => 'admin123',  // Password gmail
+            'smtp_pass'   => 'firdauss215',  // Password gmail
             'smtp_crypto' => 'ssl',
             'smtp_port'   => 465,
             'crlf'    => "\r\n",
@@ -153,7 +153,7 @@
         $this->load->library('email', $config);
 
         // Email dan nama pengirim
-        $this->email->from('no-reply@masrud.com', 'Ngekos.com');
+        $this->email->from('no-reply@masrud.com', 'Ekon.com');
 
         // Email penerima
         $this->email->to($email); // Ganti dengan email tujuan

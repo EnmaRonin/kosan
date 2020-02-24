@@ -6,7 +6,7 @@
                                           </button>
                                       </div>
                           <?php endif; ?>
-<h1>Booking Saya</h1>
+<h1>Booking Kosan</h1>
 <hr>
 <table class="table table-hover table-bordered">
   <thead>

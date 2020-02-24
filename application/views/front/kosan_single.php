@@ -42,11 +42,11 @@
                 <hr>
             </div>
             <div class="col-md-8">
-                <button class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Whasapp</button>
+                <!--<button class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Whasapp</button>
                 <button class="btn btn-info btn-sm" style="background-color: rgb(59, 89, 152);"><i class="fa fa-facebook"></i> Facebook</button>
                 <button class="btn btn-success btn-sm"><i class="fab fa-line"></i> Line</button>
                 <button class="btn btn-danger btn-sm"><i class="fa fa-pinterest"></i> Pinterest</button>
-                <button class="btn btn-info btn-sm"><i class="fa fa-twitter"></i> Twitter</button>
+                <button class="btn btn-info btn-sm"><i class="fa fa-twitter"></i> Twitter</button>-->
             </div>
             <div class="col-md-3">
                 <div class="wrapper-priceDetailTop float-right">

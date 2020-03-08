@@ -319,7 +319,7 @@ class Beranda extends CI_Controller {
         $this->email->subject('Notifikasi Pembayaran');
 
         // Isi email
-        $this->email->message("Hai Pembayaran Anda Berhasil Di Terima Silahkan Menunggu Untuk Di Prosess.<br><br> Klik <strong><a href='".site_url()."/profile/booking_saya' target='_blank' rel='noopener'>disini</a></strong> Untuk Melihat Status Booking.");
+        $this->email->message("Hai Pembayaran Anda Berhasil Di Terima Silahkan Menunggu Untuk Di Proses.<br><br> Klik <strong><a href='".site_url()."/profile/booking_saya' target='_blank' rel='noopener'>disini</a></strong> Untuk Melihat Status Booking.");
 
         // Tampilkan pesan sukses atau error
         if ($this->email->send()) {

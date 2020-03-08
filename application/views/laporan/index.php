@@ -38,7 +38,7 @@
                                             <div class="form-group row">
                                                 <label for="inputnama" class="col-sm-3 col-form-label"></label>
                                                 <div class="col-sm-8">
-                                                  <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">Cetak</button>
+                                                  <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">View</button>
                                                 </div>
                                             </div>
                                             
@@ -69,7 +69,7 @@
                                             <div class="form-group row">
                                                 <label for="inputnama" class="col-sm-3 col-form-label"></label>
                                                 <div class="col-sm-8">
-                                                  <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">Cetak</button>
+                                                  <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">View</button>
                                                 </div>
                                             </div>
                                             

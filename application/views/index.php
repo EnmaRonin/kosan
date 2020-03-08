@@ -156,13 +156,19 @@
                     </div>    <div class="scrollbar-sidebar">
                         <div class="app-sidebar__inner">
                             <ul class="vertical-nav-menu">
-                                
-                                <li>
-                                    <a href="<?php echo base_url();?>index.php/welcome" class="<?php if($this->uri->segment(2)=="welcome"){echo "mm-active";}?>">
+                                <br>
+                                  <li>
+                                    <a href="<?php echo base_url();?>index.php/owner/home" class="<?php if($this->uri->segment(2)=="home"){echo "mm-active";}?>">
                                         <i class="metismenu-icon pe-7s-home"></i>
                                         Beranda
                                     </a>
                                 </li>
+                                <!--<li>
+                                    <a href="<?php echo base_url();?>index.php/welcome" class="<?php if($this->uri->segment(2)=="welcome"){echo "mm-active";}?>">
+                                        <i class="metismenu-icon pe-7s-home"></i>
+                                        Beranda
+                                    </a>
+                                </li>-->
                                 <li class="app-sidebar__heading">Master Data</li>
                                 
                                 <li>

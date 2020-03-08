@@ -123,7 +123,7 @@
             
             $this->kirim_email(); //kirim Email
             
-            $this->session->set_flashdata('result', 'Terima Kasih MOhon Menunggu Pengecekan Status!!');
+            $this->session->set_flashdata('result', 'Terima Kasih Mohon Menunggu Pengecekan Status!!');
             redirect($_SERVER['HTTP_REFERER']);
         }
     }
@@ -165,7 +165,7 @@
         $this->email->subject('Notifikasi Pembayaran');
 
         // Isi email
-        $this->email->message("Hai Telah Melunasi Pembayaran<br><br> Klik <strong><a href='".site_url()."/profile/booking_saya' target='_blank' rel='noopener'>disini</a></strong> Untuk Melihat Status Booking.");
+        $this->email->message("Hai Terima Kasih Telah Melunasi Pembayaran<br><br> Klik <strong><a href='".site_url()."/profile/booking_saya' target='_blank' rel='noopener'>disini</a></strong> Untuk Melihat Status Booking.");
 
         // Tampilkan pesan sukses atau error
         if ($this->email->send()) {

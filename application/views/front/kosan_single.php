@@ -279,6 +279,6 @@
                         accessToken: 'pk.eyJ1IjoiamVwZXdzeWtlcyIsImEiOiJjazZhZTFpb3AwbmdtM2xxanVoN2Q4dmo3In0.4ORIedGxekwZWTO-9GOfKw'
                     }).addTo(map);
          var marker = L.marker([<?php echo $kosan[0]['lat'];?>, <?php echo $kosan[0]['lang'];?>]).addTo(map);
-         var popup = marker.bindPopup('<b class="text-uppercase"><?php echo $kosan[0]['nama'];?>!</b><br /><?php echo $kosan[0]['kota_kab'];?> - <?php echo $kosan[0]['provinsi'];?>.<br><b><a href="https://www.openstreetmap.org/?mlat=<?php echo $kosan[0]['lat'];?>&mlon=<?php echo $kosan[0]['lang'];?>#map=14/<?php echo $kosan[0]['lat'];?>/<?php echo $kosan[0]['lang'];?>" target="_new">Cari ALamat</a></b>');
+         var popup = marker.bindPopup('<b class="text-uppercase"><?php echo $kosan[0]['nama'];?>!</b><br /><?php echo $kosan[0]['kota_kab'];?> - <?php echo $kosan[0]['provinsi'];?>.<br><b><a href="https://www.openstreetmap.org/?mlat=<?php echo $kosan[0]['lat'];?>&mlon=<?php echo $kosan[0]['lang'];?>#map=14/<?php echo $kosan[0]['lat'];?>/<?php echo $kosan[0]['lang'];?>" target="_new"></a></b>');
 
 </script>

@@ -56,10 +56,10 @@ class Laporan extends CI_Controller {
 		$namefile= 'laporan Transaksi Booking '.$type.' '.date('d-m-y').'.pdf';
 		// echo "<pre>";
 		// print_r($data);die();
-		$html = $this->load->view('report',$data,true);
-		$mpdf->WriteHtml($html);
-		$mpdf->output($namefile,'I');
-		exit();
+		$html = $this->load->view('report',$data,false);
+		//$mpdf->WriteHtml($html);
+		//$mpdf->output($namefile,'I');
+		//exit();
 	}
 	
 	// public function transaksi(){

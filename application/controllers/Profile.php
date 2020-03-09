@@ -69,9 +69,16 @@
         }
         
         $data['status_payment']=$getBookingData[0]['payment'];
-        $data['count_booking']=count($data['booking']);
+        
+        if(in_array('FULL', array_column($data['booking'], 'payment'))) { // search value in the array
+            $data['count_booking']=1;
+        }else{
+            $data['count_booking']=0;
+        }
+        
         // echo "<pre>";
-        // print_r($data['status_payment']);die();
+        // print_r($data['count_booking']);
+        // die();
         $this->load->view('front/index',$data);
     }
 

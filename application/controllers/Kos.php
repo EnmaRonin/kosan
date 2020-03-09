@@ -43,6 +43,7 @@ class Kos extends CI_Controller {
 			"kecamatan"	   => $this->input->post('kecamatan'),
 			"kota_kab"	   => $this->input->post('kota_kab'),
 			"kode_pos"	   => $this->input->post('kode_pos'),
+			"umur_bangunan"	   => $this->input->post('umur_bangunan'),
 			"jenis"	   => $this->input->post('jenis'),
 			"jam_bertemu"	   => $this->input->post('jam_bertemu'),
 			"binatang"	   => $this->input->post('binatang'),

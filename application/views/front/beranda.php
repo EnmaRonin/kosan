@@ -4,7 +4,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-10 offset-xl-1">
                                 <div class="slider_text text-center justify-content-center">
-                                    <h3>Find your best Property</h3>
+                                    <h3>Find your best Kos</h3>
                                     <p>Esteem spirit temper too say adieus who direct esteem.</p>
                                 </div>
                                 <div class="property_form">
@@ -234,7 +234,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="more_property_btn text-center">
-                        <a href="#" class="boxed-btn3-line">More Properties</a>
+                        <a href="#" class="boxed-btn3-line">More Kos</a>
                     </div>
                 </div>
             </div>

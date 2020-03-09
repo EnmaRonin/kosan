@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ngekos Dong</title>
+    <title>About-Electronic Kos Now</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/front/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/front/img/E-Kon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="col-xl-5 col-md-5 ">
                             <div class="header_left">
-                                <p>Selamat Datang Di KosanBebas.com</p>
+                                <p>Selamat Datang Di Ekon.com</p>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-7">
@@ -80,7 +80,7 @@
                                     <?php }?>
                                         </div>
                                         <div class="social_media_links">
-                                            <a href="#">
+                                            <!--<a href="#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                             <a href="#">
@@ -88,7 +88,7 @@
                                             </a>
                                             <a href="#">
                                                 <i class="fa fa-google-plus"></i>
-                                            </a>
+                                            </a>-->
                                         </div>
                             </div>
 
@@ -103,7 +103,7 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="<?php echo base_url();?>">
-                                        <img src="<?php echo base_url();?>assets/front/img/logo.png" alt="">
+                                        <img src="<?php echo base_url();?>assets/front/img/E-Kon.png"height="150" width="200" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@
                                                         <li><a href="elements.html">elements</a></li>
                                                 </ul>
                                             </li> -->
-                                            <li><a class="<?php if($this->uri->segment(2)=="about"){echo "active";}?>" href="<?php echo base_url();?>index.php/pages/about">About Us</a></li>
+                                            <li><a class="<?php if($this->uri->segment(2)=="about"){echo "active";}?>" href="<?php echo base_url();?>index.php/pages/about">About</a></li>
                                             <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">blog</a></li>
@@ -167,7 +167,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="bradcam_text text-center">
-                                <h3>About Us</h3>
+                                <h3>About</h3>
                             </div>
                         </div>
                     </div>
@@ -480,7 +480,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://localhost/kosan/" target="_blank"><i>Electronic Kos Now</i></a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>

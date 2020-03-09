@@ -130,7 +130,7 @@
             
             $this->kirim_email(); //kirim Email
             
-            $this->session->set_flashdata('result', 'Terima Kasih MOhon Menunggu Pengecekan Status!!');
+            $this->session->set_flashdata('result', 'Terima Kasih Mohon Menunggu Pengecekan Status!!');
             redirect($_SERVER['HTTP_REFERER']);
         }
     }
@@ -149,7 +149,7 @@
             'protocol'  => 'smtp',
             'smtp_host' => 'smtp.gmail.com',
             'smtp_user' => 'aekon83@gmail.com',  // Email gmail
-            'smtp_pass'   => 'admin123',  // Password gmail
+            'smtp_pass'   => 'firdauss215',  // Password gmail
             'smtp_crypto' => 'ssl',
             'smtp_port'   => 465,
             'crlf'    => "\r\n",
@@ -160,7 +160,7 @@
         $this->load->library('email', $config);
 
         // Email dan nama pengirim
-        $this->email->from('no-reply@masrud.com', 'Ngekos.com');
+        $this->email->from('no-reply@masrud.com', 'Ekon.com');
 
         // Email penerima
         $this->email->to($email); // Ganti dengan email tujuan
@@ -172,7 +172,7 @@
         $this->email->subject('Notifikasi Pembayaran');
 
         // Isi email
-        $this->email->message("Hai Telah Melunasi Pembayaran<br><br> Klik <strong><a href='".site_url()."/profile/booking_saya' target='_blank' rel='noopener'>disini</a></strong> Untuk Melihat Status Booking.");
+        $this->email->message("Hai Terima Kasih Telah Melunasi Pembayaran<br><br> Klik <strong><a href='".site_url()."/profile/booking_saya' target='_blank' rel='noopener'>disini</a></strong> Untuk Melihat Status Booking.");
 
         // Tampilkan pesan sukses atau error
         if ($this->email->send()) {

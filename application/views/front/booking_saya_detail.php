@@ -46,7 +46,7 @@
   </tbody>
 </table>
 
-<?php if($count_booking!==1){?>
+<?php if($count_booking!=2 || $status_payment=!"DP"){?>
 <hr>
 <h2>Form Pelunasan</h2>
 <hr>

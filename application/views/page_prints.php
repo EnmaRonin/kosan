@@ -192,7 +192,7 @@
                     <div class="col company-details">
                         <h2 class="name">
                             <a target="_blank" href="#">
-                            Ngekos Dong
+                            Electronic Kos Now
                             </a>
                         </h2>
                         <div>455 Foggy Heights, AZ 85004, US</div>
@@ -270,7 +270,7 @@
                 </div>
             </main>
             <footer>
-                Terima Kasih Sudah Percaya Kepada Ngekos.com Happy Kos. 
+                Terima Kasih Sudah Percaya Kepada Ekon.com Electronic Kos Now. 
             </footer>
         </div>
         <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->

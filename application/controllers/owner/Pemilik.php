@@ -109,7 +109,7 @@ class Pemilik extends CI_Controller {
 				
 			$this->smartpost->hapus('pemilik_kos',$id);	
 			$this->smartpost->hapus('user',$pengguna_id[0]['id']);
-			$this->session->set_flashdata('result', 'pemilik kos Behasil Di Hapus!!');
+			$this->session->set_flashdata('result', 'Pemilik Kos Behasil Di Hapus!!');
 			redirect('owner/pemilik');
 	}
 

@@ -42,11 +42,11 @@
                 <hr>
             </div>
             <div class="col-md-8">
-                <button class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Whasapp</button>
+                <!--<button class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Whasapp</button>
                 <button class="btn btn-info btn-sm" style="background-color: rgb(59, 89, 152);"><i class="fa fa-facebook"></i> Facebook</button>
                 <button class="btn btn-success btn-sm"><i class="fab fa-line"></i> Line</button>
                 <button class="btn btn-danger btn-sm"><i class="fa fa-pinterest"></i> Pinterest</button>
-                <button class="btn btn-info btn-sm"><i class="fa fa-twitter"></i> Twitter</button>
+                <button class="btn btn-info btn-sm"><i class="fa fa-twitter"></i> Twitter</button>-->
             </div>
             <div class="col-md-3">
                 <div class="wrapper-priceDetailTop float-right">
@@ -279,6 +279,6 @@
                         accessToken: 'pk.eyJ1IjoiamVwZXdzeWtlcyIsImEiOiJjazZhZTFpb3AwbmdtM2xxanVoN2Q4dmo3In0.4ORIedGxekwZWTO-9GOfKw'
                     }).addTo(map);
          var marker = L.marker([<?php echo $kosan[0]['lat'];?>, <?php echo $kosan[0]['lang'];?>]).addTo(map);
-         var popup = marker.bindPopup('<b class="text-uppercase"><?php echo $kosan[0]['nama'];?>!</b><br /><?php echo $kosan[0]['kota_kab'];?> - <?php echo $kosan[0]['provinsi'];?>.<br><b><a href="https://www.openstreetmap.org/?mlat=<?php echo $kosan[0]['lat'];?>&mlon=<?php echo $kosan[0]['lang'];?>#map=14/<?php echo $kosan[0]['lat'];?>/<?php echo $kosan[0]['lang'];?>" target="_new">Cari ALamat</a></b>');
+         var popup = marker.bindPopup('<b class="text-uppercase"><?php echo $kosan[0]['nama'];?>!</b><br /><?php echo $kosan[0]['kota_kab'];?> - <?php echo $kosan[0]['provinsi'];?>.<br><b><a href="https://www.openstreetmap.org/?mlat=<?php echo $kosan[0]['lat'];?>&mlon=<?php echo $kosan[0]['lang'];?>#map=14/<?php echo $kosan[0]['lat'];?>/<?php echo $kosan[0]['lang'];?>" target="_new"></a></b>');
 
 </script>

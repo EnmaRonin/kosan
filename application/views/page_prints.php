@@ -195,9 +195,9 @@
                             Electronic Kos Now
                             </a>
                         </h2>
-                        <div>455 Foggy Heights, AZ 85004, US</div>
-                        <div>(123) 456-789</div>
-                        <div>company@example.com</div>
+                        <div>16610 Firdaus Company, Ciomas, Indonesia</div>
+                        <div>0838-0706-8538</div>
+                        <div>Ekon.com</div>
                     </div>
                 </div>
             </header>

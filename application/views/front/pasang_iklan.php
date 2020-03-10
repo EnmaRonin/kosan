@@ -82,15 +82,6 @@
                                             </div>
                                           </div>
                                           <div class="position-relative row form-group">
-                                            <label for="inputnama" class="col-sm-3 col-form-label">Umur Bangunan</label>
-                                            <div class="col-sm-8">
-                                              <input type="text" class="form-control" name="umur_bangunan"id="inputnama" placeholder="Umur Bangunan" value="<?php echo isset($kontrakan[0]['umur_bangunan']) ? $kontrakan[0]['umur_bangunan'] : '' ;?>" required>
-                                              <div class="invalid-feedback">
-                                                Masukan Umur Bangunan
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="position-relative row form-group">
                                             <label for="inputnama" class="col-sm-3 col-form-label">Jenis</label>
                                             <div class="col-sm-8">
                                               <select class="form-control js-example-basic-single" name="jenis"  required>

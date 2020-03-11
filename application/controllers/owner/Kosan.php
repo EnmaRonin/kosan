@@ -46,7 +46,7 @@ class Kosan extends CI_Controller {
 			$data['action'] = site_url('owner/kosan/tambah');
 			$data['title'] = "tambah";
 			$data['fasilitas'] = $this->smartpost->get('fasilitas')->result();
-			$data['user'] = $this->smartpost->cek('user',$where)->result();
+			$data['user'] = $this->smartpost->get('pemilik_kos')->result();
 			
 			$this->load->view('index',$data);
 		}else{
